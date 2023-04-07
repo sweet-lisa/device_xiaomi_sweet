@@ -18,6 +18,10 @@ TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
+# Camera - Miui
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
